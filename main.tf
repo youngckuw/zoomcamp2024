@@ -9,12 +9,12 @@ terraform {
 
 provider "google" {
   # Configuration options
-  project = "groovy-pager-412619"
-  region  = "us-west1-a"
+  project = "datacamp2004"
+  region  = "us-west1"
 }
 
 resource "google_storage_bucket" "demo-bucket" {
-  name          = "groovy-pager-412619-terra-bucket"
+  name          = "datacamp2004-terra-bucket"
   location      = "US"
   force_destroy = true
 
